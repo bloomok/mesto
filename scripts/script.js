@@ -21,6 +21,8 @@ let profileName = document.querySelector('.profile__name');
 let profileJob = document.querySelector('.profile__description');
 nameInput.placeholder = document.querySelector('.profile__name').textContent;
 jobInput.placeholder = document.querySelector('.profile__description').textContent;
+nameInput.value = profileName.textContent;
+jobInput.value = profileJob.textContent;
 
 function handleFormSubmit (evt) {
   evt.preventDefault();
