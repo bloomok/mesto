@@ -2,11 +2,16 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding-top: 40px;
+  padding: 40px 0 31px 0;
+  max-width: 880px;
   width: 100%;
   /*grid-template-columns: 120px max-content 1fr;*/
   column-gap: 30px;
-  row-gap: 26px;
+}
+@media screen and (max-width: 960px)  {
+  .profile {
+    max-width: calc(100vw - 80px);
+  }
 }
 
 @media screen and (max-width: 745px) {
@@ -14,3 +19,11 @@
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 512px) {
+  .profile {
+    padding: 42px 0 31px 0;
+    max-width: 282px;
+  }
+}
+

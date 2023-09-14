@@ -5,3 +5,11 @@
   border: 1px solid #fff;
   margin-left: 18px;
 }
+
+@media screen and (max-width: 512px) {
+  .profile__edit-button {
+    margin-left: 10px;
+    width: 18px;
+    height: 18px;
+  }
+}
