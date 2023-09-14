@@ -8,10 +8,15 @@
   font-family: inherit;
   font-size: 18px;
   color: #fff;
+  transition: opacity ease-in-out 0.2s;
 }
 
 @media screen and (max-width: 512px) {
   .popup__submit-button {
     font-size: 14px;
   }
+}
+
+.popup__submit-button:hover {
+  opacity: 0.8;
 }
