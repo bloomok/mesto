@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding: 40px 0 31px 0;
+  padding: 40px 0 31px;
   max-width: 880px;
   width: 100%;
   /*grid-template-columns: 120px max-content 1fr;*/
@@ -22,8 +22,7 @@
 
 @media screen and (max-width: 512px) {
   .profile {
-    padding: 42px 0 31px 0;
+    padding: 42px 0 31px;
     max-width: 282px;
   }
 }
-
