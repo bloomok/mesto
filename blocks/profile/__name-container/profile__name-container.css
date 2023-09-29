@@ -1,11 +1,5 @@
 .profile__name-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   max-width: 100%;
-}
-
-@media screen and (max-width: 512px) {
-  .profile__name-container {
-    padding-left: 29px;
-  }
 }
