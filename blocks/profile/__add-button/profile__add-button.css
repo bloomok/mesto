@@ -4,9 +4,9 @@
   max-width: 150px;
   width: 100%;
   height: 50px;
-  background: url(../../../images/add-button.svg) no-repeat 50%;
+  background: url(../../../images/add-button.svg) no-repeat center;
   background-size: 23px 23px;
-  border: 2px solid #ffffff;
+  border: 2px solid #fff;
   border-radius: 2px;
   cursor: pointer;
 }
