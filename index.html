@@ -29,55 +29,7 @@
 
     <section class="cards page__wrapper">
 
-      <ul class="cards__list">
-        <li class="card">
-          <img src="images/karachaevsk.jpg" alt="Старинное строение" class="card__image">
-          <div class="card__description">
-            <h2 class="card__heading">Карачаево-Черкессия</h2>
-            <button class="card__like-button card__like-button_active"></button>
-          </div>
-        </li>
-
-        <li class="card">
-          <img src="images/elbrus-mountain.jpg" alt="Сумеречное поле" class="card__image">
-          <div class="card__description">
-            <h2 class="card__heading">Гора Эльбрус</h2>
-            <button class="card__like-button"></button>
-          </div>
-        </li>
-
-        <li class="card">
-          <img src="images/dombai.png" alt="Горные склоны, покрытые лесом" class="card__image">
-          <div class="card__description">
-            <h2 class="card__heading">Домбай</h2>
-            <button class="card__like-button"></button>
-          </div>
-        </li>
-
-        <li class="card">
-          <img src="images/dombai.png" alt="Горные склоны, покрытые лесом" class="card__image">
-          <div class="card__description">
-            <h2 class="card__heading">Домбай</h2>
-            <button class="card__like-button"></button>
-          </div>
-        </li>
-
-        <li class="card">
-          <img src="images/elbrus-mountain.jpg" alt="Сумеречное поле" class="card__image">
-          <div class="card__description">
-            <h2 class="card__heading">Гора Эльбрус</h2>
-            <button class="card__like-button"></button>
-          </div>
-        </li>
-
-        <li class="card">
-          <img src="images/karachaevsk.jpg" alt="Старинное строение" class="card__image">
-          <div class="card__description">
-            <h2 class="card__heading">Карачаевск</h2>
-            <button class="card__like-button"></button>
-          </div>
-        </li>
-      </ul>
+      <ul class="cards__list"></ul>
 
     </section>
 
@@ -102,6 +54,33 @@
       <button class="popup__close-button button-transition"></button>
     </div>
   </dialog>
+
+  <dialog class="popup popup_card">
+    <div class="popup__container page__wrapper">
+      <h2 class="popup__title">Новое место</h2>
+      <form class="popup__form" name="profile-form">
+        <label>
+          <input class="popup__input popup__input_type_card-name" type="text" required placeholder="Название">
+        </label>
+        <label>
+          <input class="popup__input popup__input_image-link" type="text" required placeholder="Ссылка на картинку">
+        </label>
+        <button class="popup__submit-button">Создать</button>
+      </form>
+      <button class="popup__close-button button-transition"></button>
+    </div>
+  </dialog>
+
+
+  <template class="card-template">
+    <li class="card">
+      <img src="" alt="" class="card__image">
+      <div class="card__description">
+        <h2 class="card__heading"></h2>
+        <button class="card__like-button"></button>
+      </div>
+    </li>
+  </template>
 
   <script src="scripts/index.js"></script>
 
