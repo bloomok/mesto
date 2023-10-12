@@ -117,6 +117,12 @@ function createCardFormSubmit(evt) {
   cardElement.querySelector('.card__delete-button').addEventListener('click', (evt) => {
     evt.target.closest('.card').remove();
   })
+  cardElement.querySelector('.card__image').addEventListener('click', (evt) => {
+    popupPreviewImage.src = evt.target.src;
+    popupPreviewDescription.textContent = evt.target.nextElementSibling.textContent;
+    popupPreview.classList.toggle('popup_opened');
+  })
+
   cardsList.prepend(cardElement);
   popupCard.classList.toggle('popup_opened');
 }
