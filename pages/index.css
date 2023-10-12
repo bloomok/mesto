@@ -28,6 +28,7 @@
 @import url(../blocks/card/__heading/card__heading.css);
 @import url(../blocks/card/__like-button/card__like-button.css);
 @import url(../blocks/card/__like-button/_active/card__like-button_active.css);
+@import url(../blocks/card/__delete-button/card__delete-button.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
@@ -40,3 +41,18 @@
 @import url(../blocks/popup/__input/popup__input.css);
 @import url(../blocks/popup/__submit-button/popup__submit-button.css);
 @import url(../blocks/popup/__close-icon/popup__close-icon.css);
+
+@import url(../blocks/popup-preview/popup-preview.css);
+@import url(../blocks/popup-preview/__image/popup-preview__image.css);
+@import url(../blocks/popup-preview/__description/popup-preview__description.css);
+@import url(../blocks/popup-preview/__container/popup-preview__container.css);
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
