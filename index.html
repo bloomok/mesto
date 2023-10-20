@@ -28,9 +28,7 @@
     </section>
 
     <section class="cards page__wrapper">
-
       <ul class="cards__list"></ul>
-
     </section>
 
   </main>
@@ -39,7 +37,7 @@
     <p class="footer__copyright">&copy; 2023 Mesto Russia</p>
   </footer>
 
-  <dialog class="popup">
+  <dialog class="popup popup_info">
     <div class="popup__container page__wrapper">
       <h2 class="popup__title">Редактировать профиль</h2>
       <form class="popup__form" name="profile-form">
@@ -63,7 +61,7 @@
           <input class="popup__input popup__input_type_card-name" type="text" required placeholder="Название">
         </label>
         <label>
-          <input class="popup__input popup__input_image-link" type="text" required placeholder="Ссылка на картинку">
+          <input class="popup__input popup__input_type_image-link" type="text" required placeholder="Ссылка на картинку">
         </label>
         <button class="popup__submit-button">Создать</button>
       </form>
@@ -81,15 +79,16 @@
 
   <template class="card-template">
     <li class="card">
-      <button class="card__delete-button button-transition"></button>
       <img src="" alt="" class="card__image">
+      <button class="card__image-button"></button>
       <div class="card__description">
         <h2 class="card__heading"></h2>
         <button class="card__like-button"></button>
       </div>
+      <button class="card__delete-button button-transition"></button>
     </li>
   </template>
-
+  <script src="scripts/constants.js"></script>
   <script src="scripts/index.js"></script>
 
 </body>

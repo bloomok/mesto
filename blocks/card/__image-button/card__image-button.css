@@ -1,0 +1,9 @@
+.card__image-button {
+  position: absolute;
+  top: 0;
+  width: 282px;
+  height: 282px;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
