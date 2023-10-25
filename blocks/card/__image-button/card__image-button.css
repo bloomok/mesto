@@ -4,6 +4,6 @@
   width: 282px;
   height: 282px;
   border: 0;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   cursor: pointer;
 }
